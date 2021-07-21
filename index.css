@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-bg {
+    background-color: #1a1c1f;
+}
+
+
+.home-bg {
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--XjWirOW8--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/arasur0jjdbqabgl69xr.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.Home {
+    font-family: "Bree serif";
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.name-highlight {
+    color: #c9004d;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.view-button {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+
+}
+
+.my-tag {
+    writing-mode: vertical-lr;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .my-tag {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .my-tag {
+        writing-mode: vertical-lr;
+        position: fixed;
+        bottom: 40vh;
+        right: 10px;
+        color: gray;
+        font-family: roboto;
+        font-size: 20px;
+    }
+
+    .tag-icon {
+        color: gray;
+    }
+}
+
+.about-section {
+    height: 100vh;
+}
+
+.about-bg {
+    background-color: #ffffff;
+
+}
+
+.about-heading {
+    color: grey;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.hr-line {
+    background-color: grey;
+    height: 2px;
+    width: 60px;
+}
+
+.my-image {
+
+    border-radius: 800px;
+    height: 290px;
+}
+
+.my-info {
+    color: black;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.my-interests-heading {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.my-interests {
+    font-family: "Open Sans";
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.my-interests-card {
+    background-color: white;
+    width: 210px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-bottom: 24px;
+    font-family: "Open Sans";
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 18px;
+    color: #334155;
+    height: 100px;
+}
+
+.border-green {
+    border-left: 8px solid #65a30d;
+}
+
+.border-dark-green {
+    border-left: 8px solid #0d9488;
+}
+
+.border-dark-yellow {
+    border-left: 8px solid #ca8a04;
+}
+
+.border-orange {
+    border-left: 8px solid #ea580c;
+}
+
+.border-blue {
+    border-left: 8px solid #4f46e5;
+}
+
+.border-violet {
+    border-left: 8px solid #9333ea;
+}
+
+.border-pink {
+    border-left: 8px solid #db2777;
+}
+
+.border-red {
+    border-left: 8px solid #e11d48;
+}
+
+.myskills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    background-color: #2b5489;
+    min-height: 100vh;
+}
+
+.skill-paragraph {
+    color: white;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.card-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    width: 210px;
+    height: 80px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-bottom: 24px;
+    font-family: "Open Sans";
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 18px;
+    color: #334155;
+}
+
+.whatido-bg {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.projects-main-heading {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.project-heading {
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: black;
+}
+
+.project-paragraph {
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: black;
+    text-decoration: none;
+}
+
+.project-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    border-radius: 10px;
+    background-color: #b7e8d3;
+    width: 80%;
+}
+
+
+.contact-bg {
+    background-color: black;
+
+}
+
+.contact-heading {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.icon-card {
+    background-color: #152c3e;
+    text-align: center;
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 30px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .steve-image {
+        width: 90%;
+    }
+
+    .steve-heading {
+        font-family: "Open Sans";
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .steve-image {
+        width: 60%;
+    }
+
+    .steve-heading {
+        font-family: "Open Sans";
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+.steve-highlight {
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 21px;
+    color: #ffffff;
+
+}
+
+.end-line {
+    background-color: white;
+    width: 70%;
+}
+
+.footer-paragraph {
+    color: white;
+    font-family: roboto;
+}
+
+.icon2 {
+    color: white;
+}
