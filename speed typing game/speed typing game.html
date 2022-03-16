@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container" id="speedTypingTest">
+        <div class="container">
+
+            <div class="row p-5">
+                <div class="col-12">
+                    <h1 class="main-heading">Speed Typing Test</h1>
+                    <p class="main-paragraph">on your fingers lets set Go!</p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row ">
+                        <img class="image1" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" />
+                        <p class="time-paragraph"><span class="time-container" id="timer">0</span> seconds</p>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div>
+                        <button id="startBtn" class="btn btn-danger start-stop-button mr-5">Start</button>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="d-none" id="spinner">
+                        <div class="d-flex justify-content-center">
+                            <div class="spinner-border" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="input-container">
+                        <p class="display-text" id="quoteDisplay">Click Start button to Start</p>
+                        <textarea class="form-control text-area" placeholder="Type here!!" id="quoteInput" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="warning-text mb-3" id="result"></p>
+                    <button class="submit mr-3" id="submitBtn">Submit</button>
+                    <button class="reset" id="resetBtn">Reset</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
