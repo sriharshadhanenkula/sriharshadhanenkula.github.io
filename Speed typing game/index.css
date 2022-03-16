@@ -1,0 +1,90 @@
+
+.main-container {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("./Images/keyboard-image.webp");
+    background-size: cover;
+    opacity: 1;
+    min-height: 100vh;
+}
+
+.main-heading {
+    font-weight: bold;
+    color: yellow;
+    font-family: Bree Serif;
+    font-size: 50px;
+}
+
+.main-paragraph {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.image1 {
+    height: 60px;
+    margin-right: 30px;
+}
+
+.time-paragraph {
+    color:white;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.time-container {
+    color: white;
+    font-family: Roboto;
+    font-size: 40px;
+}
+
+.start-stop-button {
+    width: 80px;
+}
+.my-spinner{
+    color: white;
+}
+.input-container {
+    background-color: #f3eaff;
+    border: 2px solid #9aa5b1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.display-text {
+    font-family: Roboto;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-area {
+    font-family: Roboto;
+    color: black;
+    font-size: 18px;
+}
+
+.warning-text {
+    font-family: sans-serif;
+    color:  yellow ;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.submit {
+    background-color: #690cb0;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.reset {
+    background-color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
