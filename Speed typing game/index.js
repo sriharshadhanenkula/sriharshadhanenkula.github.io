@@ -11,6 +11,8 @@ let counter = null;
 
 startBtnEl.addEventListener("click", function() {
     timerEl.textContent = "0";
+    clearInterval(uniqueId);
+    resultEl.textContent = "";
     getTheText();
 })
 

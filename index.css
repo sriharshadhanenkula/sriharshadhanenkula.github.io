@@ -92,7 +92,7 @@
 }
 .project-section{
     
-    background-color:#fae596;
+    background-color:#F8F8F8;
 }
 .projects-heading{
     font-family: "Roboto";
@@ -111,6 +111,35 @@
 .card-description{
     font-size: 15px;
     text-align: justify;
+}
+.steve-jobs-section{
+    background-color: #F0F0F0;
+}
+.steve-section{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.steve-image{
+    width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .steve-heading {
+        font-family: "Open Sans";
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .steve-heading {
+        font-family: "Open Sans";
+        font-size: 30px;
+    }
+}
+.steve-highlight {
+    font-weight: bold;
 }
 
 .contact-bg {
