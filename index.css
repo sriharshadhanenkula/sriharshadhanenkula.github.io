@@ -121,14 +121,15 @@
     align-items: center;
     justify-content: center;
 }
-.steve-image{
-    width: 80%;
-}
+
 
 @media screen and (max-width: 900px) {
     .steve-heading {
         font-family: "Open Sans";
-        font-size: 25px;
+        font-size: 22px;
+    }
+    .steve-image{
+        width: 100%;
     }
 }
 
@@ -136,6 +137,9 @@
     .steve-heading {
         font-family: "Open Sans";
         font-size: 30px;
+    }
+    .steve-image{
+        width: 80%;
     }
 }
 .steve-highlight {
