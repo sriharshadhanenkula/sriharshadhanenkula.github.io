@@ -142,17 +142,50 @@
     text-decoration: underline;
 }
 .my-project-card{
-    height: 430px;
+    border-radius: 10px;
 }
-
 .twitter-image{
-    height: 150px;
     background-size: cover;
 }
 .card-description{
     font-size: 15px;
     text-align: justify;
 }
+.tech-heading{
+    font-weight:500;
+}
+.tech-text{
+    font-style: italic;
+}
+@media screen and (max-width: 900px) {
+    .my-project-card{
+        width: 100%;
+    }
+    .twitter-image{
+        height: 170px;
+    }
+    .tech-text{
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .my-project-card{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 260px;
+        padding: 12px;
+        overflow: auto;
+    }
+    .twitter-image{
+        width: 300px;
+        height: 100%;
+        background-size: cover;
+    }
+}
+
+
 .steve-jobs-section{
     background-color: #F0F0F0;
 }
