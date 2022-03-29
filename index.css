@@ -197,7 +197,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .steve-heading {
         font-family: "Open Sans";
         font-size: 22px;
@@ -207,7 +207,7 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 920px) {
     .steve-heading {
         font-family: "Open Sans";
         font-size: 30px;
@@ -218,6 +218,10 @@
 }
 .steve-highlight {
     font-weight: bold;
+}
+
+.contact-form{
+    background-color: #F0F0F0;
 }
 
 .contact-bg {
