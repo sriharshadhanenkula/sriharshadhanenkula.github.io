@@ -6,7 +6,7 @@ body {
 }
 .nav-background {
   /*background-color: #1a1c1f;*/
-  background-color: black;
+  background-color: #0d011c;
   padding: 5px;
   display: flex;
   flex-direction: row;
@@ -46,7 +46,7 @@ body {
   font-weight: 500;
 }
 .home-bg {
-  background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673660817/My%20Portfolio/background_u7eifw.jpg");
+  background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673674373/My%20Portfolio/backgroundImage2_dvkxbh.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -73,43 +73,45 @@ body {
 }
 
 .about-bg {
-  background-color: white;
+  background-color: #0a0426;
 }
 
 .about-heading {
-  color: #482673;
+  color: #c9004d;
   font-family: "roboto";
   font-weight: bold;
-  font-size: 32px;
-  text-decoration: underline;
+  font-size: 36px;
+}
+.heading-dash-line {
+  margin-left: 20px;
 }
 
 .my-image {
-  border-radius: 600px;
-  height: 300px;
+  border-radius: 60px;
+  height: 500px;
 }
 
 .my-info {
-  color: black;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 550;
+  color: #e8e6f7;
+  font-family: "roboto";
+  font-size: 19px;
+  font-weight: 500;
   text-align: justify;
 }
 
 .my-interests-heading {
-  font-family: "Open Sans";
-  font-size: 20px;
+  font-family: "Roboto";
+  font-size: 22px;
   font-weight: 600;
-  color: #482673;
+  color: #e8e6f7;
 }
 
 .my-interests-card {
-  background-color: white;
+  background-color: #e8e6f7;
   border-radius: 12px;
   font-family: "Open Sans";
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   justify-content: center;
