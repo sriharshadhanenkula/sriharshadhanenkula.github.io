@@ -1,278 +1,302 @@
-.nav-background{
-    background-color: #1a1c1f;
-    padding: 5px;
+body {
+  cursor: none;
 }
-.nav-button{
-    background-color: white;
-    margin-left: auto;
+::-webkit-scrollbar {
+  width: 0px;
 }
-.nav-text{
-    font-size: 17px;
-    margin-right:10px ;
-    font-family: sans-serif;
+.nav-background {
+  /*background-color: #1a1c1f;*/
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: none;
+  border-radius: 50%;
+}
+@media screen and (min-width: 900px) {
+  .website-symbol-container {
+    margin-right: 30px;
+  }
+  .nav-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nav-button {
+  background-color: white;
+  margin-left: auto;
+}
+.nav-text {
+  font-size: 17px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  cursor: none;
+  font-weight: 500;
 }
 .home-bg {
-    background-image: url("./images/background.jpg");
-    background-size: cover;
-    height: 100vh;
+  background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673660817/My%20Portfolio/background_u7eifw.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
 .Home {
-    font-family: "Bree serif";
-    font-size: 34px;
-    color: #ffffff;
+  font-family: "Bree serif";
+  font-size: 34px;
+  color: #ffffff;
 }
 
 .name-highlight {
-    color: #c9004d;
-    font-size: 45px;
-    font-weight: bold;
+  color: #c9004d;
+  font-size: 45px;
+  font-weight: bold;
 }
-.resume-button{
-    border-radius: 20px;
-    font-family: "open sans";
-    font-size: 15px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    width: 170px;
+.resume-button {
+  border-radius: 20px;
+  font-family: "open sans";
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 170px;
+  cursor: none;
 }
 
 .about-bg {
-    background-color: white;
+  background-color: white;
 }
 
 .about-heading {
-    color: #482673;
-    font-family: "roboto";
-    font-weight: bold;
-    font-size: 32px;
-    text-decoration: underline;
+  color: #482673;
+  font-family: "roboto";
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: underline;
 }
 
 .my-image {
-
-    border-radius: 600px;
-    height: 300px;
+  border-radius: 600px;
+  height: 300px;
 }
 
 .my-info {
-    color: black;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 550;
-    text-align: justify;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 550;
+  text-align: justify;
 }
 
 .my-interests-heading {
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: 600;
-    color: #482673;
-    
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: #482673;
 }
 
-
-
 .my-interests-card {
-    background-color: white;
-    border-radius: 12px;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80px;
+  background-color: white;
+  border-radius: 12px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
 }
 
 .border-green {
-    border-left: 8px solid #65a30d;
+  border-left: 8px solid #65a30d;
 }
 
 .border-dark-green {
-    border-left: 8px solid #0d9488;
+  border-left: 8px solid #0d9488;
 }
 
 .border-dark-yellow {
-    border-left: 8px solid #ca8a04;
+  border-left: 8px solid #ca8a04;
 }
-.project-section{
-    
-    background-color:#F8F8F8;
+.project-section {
+  background-color: #f8f8f8;
 }
-.skills-list{
-    list-style-type: none;
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-item {
+  border: 2px solid skyblue;
+  background-color: #f0f0f0;
+  color: black;
+  font-family: "open sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 8px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-list {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .skills-list {
+    width: 60%;
+  }
+}
+.projects-heading {
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+.my-project-card {
+  border-radius: 10px;
+}
+.twitter-image {
+  background-size: cover;
+}
+.card-description {
+  font-size: 15px;
+  text-align: justify;
+}
+.tech-heading {
+  font-weight: 500;
+}
+.tech-text {
+  font-style: italic;
+}
+@media screen and (max-width: 900px) {
+  .my-project-card {
+    width: 100%;
+  }
+  .twitter-image {
+    height: 170px;
+  }
+  .tech-text {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .my-project-card {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.skill-item{
-    border: 2px solid skyblue;
-    background-color: #F0F0F0;
-    color: black;
-    font-family: "open sans";
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin: 8px;
-    border-radius: 30px;
-}
-
-@media screen and (max-width: 900px) {
-    .skills-list{
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .skills-list{
-        width: 60%;
-    }
-}
-.projects-heading{
-    font-family: "Roboto";
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    text-decoration: underline;
-}
-.my-project-card{
-    border-radius: 10px;
-}
-.twitter-image{
+    flex-direction: row;
+    width: 80%;
+    height: 260px;
+    padding: 12px;
+    overflow: auto;
+  }
+  .twitter-image {
+    width: 300px;
+    height: 100%;
     background-size: cover;
-}
-.card-description{
-    font-size: 15px;
-    text-align: justify;
-}
-.tech-heading{
-    font-weight:500;
-}
-.tech-text{
-    font-style: italic;
-}
-@media screen and (max-width: 900px) {
-    .my-project-card{
-        width: 100%;
-    }
-    .twitter-image{
-        height: 170px;
-    }
-    .tech-text{
-        padding-bottom: 5px;
-    }
+  }
 }
 
-@media screen and (min-width: 900px) {
-    .my-project-card{
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        height: 260px;
-        padding: 12px;
-        overflow: auto;
-    }
-    .twitter-image{
-        width: 300px;
-        height: 100%;
-        background-size: cover;
-    }
+.steve-jobs-section {
+  background-color: #f0f0f0;
 }
-
-
-.steve-jobs-section{
-    background-color: #F0F0F0;
+.steve-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.steve-section{
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 
 @media screen and (max-width: 920px) {
-    .steve-heading {
-        font-family: "Open Sans";
-        font-size: 22px;
-    }
-    .steve-image{
-        width: 100%;
-    }
+  .steve-heading {
+    font-family: "Open Sans";
+    font-size: 22px;
+  }
+  .steve-image {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 920px) {
-    .steve-heading {
-        font-family: "Open Sans";
-        font-size: 30px;
-    }
-    .steve-image{
-        width: 80%;
-    }
+  .steve-heading {
+    font-family: "Open Sans";
+    font-size: 30px;
+  }
+  .steve-image {
+    width: 80%;
+  }
 }
 .steve-highlight {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.contact-form{
-    background-color: #F0F0F0;
+.contact-form {
+  background-color: #f0f0f0;
 }
 
 .contact-bg {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-heading {
-    color: #ffffff;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 28px;
-    text-decoration: underline;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: underline;
 }
 
 .icon-card {
-    background-color: #152c3e;
-    text-align: center;
-    border-radius: 40px;
-    height: 50px;
-    width: 50px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 30px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-
+  background-color: #152c3e;
+  text-align: center;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 .icon {
-    font-size: 21px;
-    color: #ffffff;
-
+  font-size: 21px;
+  color: #ffffff;
 }
 
 .end-line {
-    background-color: white;
-    width: 70%;
-    
+  background-color: white;
+  width: 70%;
 }
 
 .footer-paragraph {
-    color: white;
-    font-family: roboto;
+  color: white;
+  font-family: roboto;
 }
 
 .icon2 {
-    color: white;
+  color: white;
 }
