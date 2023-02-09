@@ -41,9 +41,13 @@ body {
 .nav-text {
   font-size: 17px;
   margin-right: 10px;
-  font-family: sans-serif;
+  font-family: "roboto";
   cursor: none;
   font-weight: 500;
+}
+.my-resume {
+  border: 1px solid #c9004d;
+  border-radius: 5px;
 }
 .home-bg {
   background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673674373/My%20Portfolio/backgroundImage2_dvkxbh.jpg");
@@ -134,6 +138,10 @@ body {
 .project-section {
   background-color: #f8f8f8;
 }
+.my-skills-section {
+  background-color: #0a0426;
+}
+
 .skills-list {
   list-style-type: none;
   display: flex;
@@ -163,15 +171,18 @@ body {
 
 @media screen and (min-width: 900px) {
   .skills-list {
-    width: 60%;
+    width: 55%;
   }
 }
+.project-section {
+  background-color: #0a0426;
+}
 .projects-heading {
-  font-family: "Roboto";
-  font-size: 35px;
+  color: #c9004d;
+  font-family: "roboto";
   font-weight: bold;
+  font-size: 36px;
   margin-bottom: 25px;
-  text-decoration: underline;
 }
 .my-project-card {
   border-radius: 10px;
@@ -218,7 +229,7 @@ body {
 }
 
 .steve-jobs-section {
-  background-color: #f0f0f0;
+  background-color: #0a0426;
 }
 .steve-section {
   display: flex;
@@ -251,11 +262,11 @@ body {
 }
 
 .contact-form {
-  background-color: #f0f0f0;
+  background-color: #0a0426;
 }
 
 .contact-bg {
-  background-color: black;
+  background-color: #0d011c;
   display: flex;
   flex-direction: column;
   align-items: center;
