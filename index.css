@@ -200,6 +200,10 @@ body {
 .tech-text {
   font-style: italic;
 }
+.load-more-button {
+  background-color: #c9004d;
+  color: #f8f8f8;
+}
 @media screen and (max-width: 900px) {
   .my-project-card {
     width: 100%;
@@ -237,10 +241,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.steve-heading {
+  font-family: "Open Sans";
+  color: #e8e6f7;
+}
 
 @media screen and (max-width: 920px) {
   .steve-heading {
-    font-family: "Open Sans";
     font-size: 22px;
   }
   .steve-image {
@@ -250,7 +257,6 @@ body {
 
 @media screen and (min-width: 920px) {
   .steve-heading {
-    font-family: "Open Sans";
     font-size: 30px;
   }
   .steve-image {
@@ -259,9 +265,10 @@ body {
 }
 .steve-highlight {
   font-weight: bold;
+  color: #c9004d;
 }
 
-.contact-form {
+.contact-form-container {
   background-color: #0a0426;
 }
 
@@ -277,8 +284,7 @@ body {
   color: #ffffff;
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 28px;
-  text-decoration: underline;
+  font-size: 30px;
 }
 
 .icon-card {
@@ -294,7 +300,9 @@ body {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-
+.icon-card:hover {
+  background-color: #c9004d;
+}
 .icon {
   font-size: 21px;
   color: #ffffff;
