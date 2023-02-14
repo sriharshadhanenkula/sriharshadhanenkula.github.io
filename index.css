@@ -44,11 +44,13 @@ body {
   font-family: "roboto";
   cursor: none;
   font-weight: 500;
+  text-align: center;
 }
-.my-resume {
-  border: 1px solid #c9004d;
-  border-radius: 5px;
+.nav-item:hover {
+  border: 2px solid #c9004d;
+  border-radius: 8px;
 }
+
 .home-bg {
   background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673674373/My%20Portfolio/backgroundImage2_dvkxbh.jpg");
   background-size: cover;
@@ -86,15 +88,25 @@ body {
   font-weight: bold;
   font-size: 36px;
 }
-.heading-dash-line {
-  margin-left: 20px;
+
+@media screen and (max-width: 900px) {
+  .heading-dash-line {
+    color: #0a0426;
+  }
+}
+@media screen and (min-width: 900px) {
+  .heading-dash-line {
+    margin-left: 20px;
+  }
 }
 
 .my-image {
   border-radius: 60px;
   height: 500px;
 }
-
+.my-image:hover {
+  border: 1px solid #c9004d;
+}
 .my-info {
   color: #e8e6f7;
   font-family: "roboto";
@@ -122,6 +134,9 @@ body {
   align-items: center;
   text-align: center;
   height: 80px;
+}
+.my-interests-card:hover {
+  color: #c9004d;
 }
 
 .border-green {
@@ -174,6 +189,10 @@ body {
     width: 55%;
   }
 }
+.skill-item:hover {
+  border: 2px solid #c9004d;
+  color: #c9004d;
+}
 .project-section {
   background-color: #0a0426;
 }
@@ -186,6 +205,9 @@ body {
 }
 .my-project-card {
   border-radius: 10px;
+}
+.my-project-card:hover {
+  border: 3px solid #c9004d;
 }
 .twitter-image {
   background-size: cover;
@@ -203,6 +225,11 @@ body {
 .load-more-button {
   background-color: #c9004d;
   color: #f8f8f8;
+}
+.load-more-button:hover {
+  background-color: #f8f8f8;
+  color: #c9004d;
+  border: 2px solid #c9004d;
 }
 @media screen and (max-width: 900px) {
   .my-project-card {
@@ -225,13 +252,38 @@ body {
     padding: 12px;
     overflow: auto;
   }
+
   .twitter-image {
     width: 300px;
     height: 100%;
     background-size: cover;
   }
 }
-
+.my-coding-profile {
+  background-color: #0a0426;
+  padding: 10px;
+}
+.Coding-profile-image {
+  border-radius: 20px;
+  width: 38%;
+}
+.coding-profile-paragraph {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #e8e6f7;
+  margin: 5px;
+}
+.coding-profile-anchor-tag {
+  color: #e8e6f7;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
 .steve-jobs-section {
   background-color: #0a0426;
 }
