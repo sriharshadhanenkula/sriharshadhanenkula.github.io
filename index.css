@@ -56,7 +56,6 @@ body {
   background-size: cover;
   height: 100vh;
 }
-
 .Home {
   font-family: "Bree serif";
   font-size: 34px;
@@ -106,6 +105,8 @@ body {
 }
 .my-image:hover {
   border: 1px solid #c9004d;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 .my-info {
   color: #e8e6f7;
@@ -137,6 +138,8 @@ body {
 }
 .my-interests-card:hover {
   color: #c9004d;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .border-green {
@@ -192,6 +195,8 @@ body {
 .skill-item:hover {
   border: 2px solid #c9004d;
   color: #c9004d;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .project-section {
   background-color: #0a0426;
@@ -230,6 +235,8 @@ body {
   background-color: #f8f8f8;
   color: #c9004d;
   border: 2px solid #c9004d;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 @media screen and (max-width: 900px) {
   .my-project-card {
@@ -273,6 +280,10 @@ body {
   font-weight: 500;
   color: #e8e6f7;
   margin: 5px;
+}
+.my-coding-profile-item:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .coding-profile-anchor-tag {
   color: #e8e6f7;
@@ -354,6 +365,8 @@ a:link {
 }
 .icon-card:hover {
   background-color: #c9004d;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .icon {
   font-size: 21px;
