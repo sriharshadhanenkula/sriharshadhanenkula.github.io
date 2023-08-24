@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 body {
   cursor: none;
 }
@@ -45,11 +46,19 @@ body {
   cursor: none;
   font-weight: 500;
   text-align: center;
+  color: white ! important  ;
 }
+.nav-text:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .nav-item:hover {
-  border: 2px solid #c9004d;
-  border-radius: 8px;
+  text-decoration: underline;
+  color: #c9004d;
+  text-underline-offset: 6px;
 }
+
 
 .home-bg {
   background-image: url("https://res.cloudinary.com/dp6ofrbni/image/upload/v1673674373/My%20Portfolio/backgroundImage2_dvkxbh.jpg");
@@ -67,6 +76,7 @@ body {
   font-size: 45px;
   font-weight: bold;
 }
+
 .resume-button {
   border-radius: 20px;
   font-family: "open sans";
@@ -199,6 +209,99 @@ body {
   transform: scale(1.1);
   transition: 0.5s;
 }
+
+.my-experience-section {
+  background-color: #0a0426;
+}
+
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0426;
+  font-family: "open sans";
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 100%;
+  height: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.timeline-main-heading{
+  font-family: "open sans";
+  font-size: 20px;
+  font-weight: bold;
+  color: #c9004d;
+
+}
+.timeline-heading{
+  font-family: "open sans";
+  font-size: 15px;
+  
+}
+.timeline-description{
+  text-align: justify;
+  font-family: "open sans";
+  font-size: 15px;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+
 .project-section {
   background-color: #0a0426;
 }
@@ -273,11 +376,11 @@ body {
 }
 .Coding-profile-image {
   border-radius: 20px;
-  width: 38%;
+  width: 28%;
 }
 .coding-profile-paragraph {
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #e8e6f7;
   margin: 5px;
